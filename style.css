@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+* {
+    font-family: "Fuzzy Bubbles";
+    font-weight: 700;
+    color: white;
+}
+
+body {
+    background-image: url("img/stage.jpg");
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div .cont-principal{
+    margin: 45px 25px;
+}
+
+.contenedor-pregunta {
+    padding: 0 60px;
+}
+
+.title {
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    margin: 8px 60px;
+    padding: 10px 12px;
+    background: #1d2770;
+}
+
+.contenedor-base {
+    font-size: 18px;
+    justify-content: center;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    margin: 8px 60px;
+    padding: 10px 12px;
+    background: #1d2770;
+}
+
+.divisor {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.boton-respuesta {
+    font-size: 16px;
+    text-align: center;
+    border: 3px solid #ffd700;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 10px 0px;
+    background: #1d2770;
+    width: 100%;
+}
+
+.boton {
+    background-color: rgb(52, 219, 52);
+    border-style: none;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.ste-pregunta {
+    text-align: center;
+    background-color: green;
+    display: none;
+}
